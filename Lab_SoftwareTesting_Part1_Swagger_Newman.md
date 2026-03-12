@@ -664,7 +664,7 @@ app.get('/api/health', (req, res) => {
 
 ```javascript
 // แก้ชั่วคราว — token หมดอายุใน 5 วินาที
-{ expiresIn: '1h' }
+{ expiresIn: '5s' }
 ```
 
 Login ใน Swagger UI → Authorize → รอ 6 วินาที → ลอง GET /api/bookings:
